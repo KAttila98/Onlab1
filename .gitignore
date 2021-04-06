@@ -1,4 +1,7 @@
 **\__pycache__
 .*
 _*
+*.npy
+*.csv
+glove.840B.300d.txt
 !/.gitignore
