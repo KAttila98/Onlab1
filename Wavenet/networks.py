@@ -264,6 +264,6 @@ class WaveNet(torch.nn.Module):
         
         logits = self.decoder(output)
         
-        preds = self.softmax(output)
+        preds = self.softmax(logits)
 
         return preds, logits
